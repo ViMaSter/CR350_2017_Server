@@ -1,0 +1,52 @@
+{
+  "name": "CS3202017DemoServer",
+  "version": "0.1.0",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "test": "jest",
+  "scripts": {
+    "prepublish": "npm run build",
+    "start": "node build/server.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ViMaSter/CS320_2017_Server.git"
+  },
+  "keywords": [
+    "multiplayer",
+    "session",
+    "server",
+    "games",
+    "academy",
+    "web",
+    "advanced"
+  ],
+  "author": "Vincent Mahnke",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ViMaSter/CS320_2017_Server/issues"
+  },
+  "homepage": "https://github.com/ViMaSter/CS320_2017_Server",
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.12.0",
+    "@types/websocket": "0.0.40",
+    "dts-bundle": "^0.7.3",
+    "http-shutdown": "^1.2.0",
+    "jest": "^23.6.0",
+    "jest-extended": "^0.11.0",
+    "ts-jest": "^23.10.4",
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "SessionServer": "git+https://github.com/ViMaSter/SessionServer.git"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "websocket": "^1.0.28"
+  }
+}
