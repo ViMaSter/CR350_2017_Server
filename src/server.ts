@@ -1,5 +1,5 @@
-import { SessionServer } from "SessionServer"
-import { ISessionData } from "SessionServer"
+import { SessionServer } from "sessionserver"
+import { ISessionData } from "sessionserver"
 
 class GameData implements ISessionData
 {

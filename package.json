@@ -1,11 +1,11 @@
 {
   "name": "CS3202017DemoServer",
   "version": "0.1.0",
-  "main": "dist/server.js",
-  "types": "dist/server.d.ts",
+  "main": "main/server.js",
+  "types": "main/server.d.ts",
   "test": "jest",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "start": "node build/server.js",
     "build": "tsc",
     "watch": "tsc -w",
@@ -43,7 +43,7 @@
     "typescript": "^3.1.3",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
-    "SessionServer": "git+https://github.com/ViMaSter/SessionServer.git"
+    "sessionserver": "^0.1.2"
   },
   "dependencies": {
     "http": "0.0.0",
