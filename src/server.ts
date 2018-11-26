@@ -40,4 +40,4 @@ class GameData implements ISessionData
 };
 
 
-let server : Promise<SessionServer> = SessionServer.Create(GameData, 7000);
+let server : Promise<SessionServer> = SessionServer.Create(GameData, parseInt(process.env.PORT || "") || 7000);
