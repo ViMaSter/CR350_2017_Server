@@ -9,7 +9,7 @@
     "start": "node build/server.js",
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -46,7 +46,7 @@
   "dependencies": {
     "http": "0.0.0",
     "http-shutdown": "^1.2.0",
-    "websocket": "^1.0.28",
-    "sessionserver": "^0.1.2"
+    "sessionserver": "^0.2.1",
+    "websocket": "^1.0.28"
   }
 }
